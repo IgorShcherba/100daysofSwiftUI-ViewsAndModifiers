@@ -12,6 +12,7 @@
 		CD3748052BD10A5F0092B308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3748042BD10A5F0092B308 /* Assets.xcassets */; };
 		CD3748082BD10A5F0092B308 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3748072BD10A5F0092B308 /* Preview Assets.xcassets */; };
 		CD37480F2BD67B5A0092B308 /* CustomContainerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD37480E2BD67B5A0092B308 /* CustomContainerExampleView.swift */; };
+		CD3748112BD67FED0092B308 /* ViewCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3748102BD67FED0092B308 /* ViewCompositionExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CD3748042BD10A5F0092B308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD3748072BD10A5F0092B308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD37480E2BD67B5A0092B308 /* CustomContainerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerExampleView.swift; sourceTree = "<group>"; };
+		CD3748102BD67FED0092B308 /* ViewCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompositionExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				CD3748042BD10A5F0092B308 /* Assets.xcassets */,
 				CD3748062BD10A5F0092B308 /* Preview Content */,
 				CD37480E2BD67B5A0092B308 /* CustomContainerExampleView.swift */,
+				CD3748102BD67FED0092B308 /* ViewCompositionExampleView.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				CD3748032BD10A5D0092B308 /* ContentView.swift in Sources */,
 				CD37480F2BD67B5A0092B308 /* CustomContainerExampleView.swift in Sources */,
+				CD3748112BD67FED0092B308 /* ViewCompositionExampleView.swift in Sources */,
 				CD3748012BD10A5D0092B308 /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
