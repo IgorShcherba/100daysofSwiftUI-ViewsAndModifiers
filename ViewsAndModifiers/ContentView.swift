@@ -7,15 +7,34 @@
 
 import SwiftUI
 
+struct Watermark: ViewModifier {
+    var text: String
+    func body(content: Content) -> some View {
+        ZStack(alignment: .bottomTrailing) {
+            content
+            Text(text)
+                .font(.subheadline)
+                .foregroundStyle(.white)
+                .padding(10)
+                .background(.black)
+        }
+    }
+}
+
+extension View {
+    func watermarked(_ text: String) -> some View {
+        return modifier(Watermark(text: text))
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Color.blue
+                .frame(width: 300, height: 300)
         }
-        .padding()
+//        .modifier(Watermark(text: "dsdsd"))
+        .watermarked("Some text")
     }
 }
 
